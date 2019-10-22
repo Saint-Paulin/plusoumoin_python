@@ -7,7 +7,13 @@ mystere = random.randint(0, 10)
 print(mystere)
 
 def macmd():
-    if mystere == 
+    nombre = inuptuser.get()
+    if mystere == nombre:
+        Monlabel = tk.Label(root, text="Gagné", padx=10, pady=5)
+        Monlabel.pack()
+        inuptuser.set(root, text="")
+        print("ok")
+        print(nombre)
 
 ### L'espace vert :
 
