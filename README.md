@@ -1,1 +1,3 @@
-# plusoumoin_python
+# plusoumoins_python
+
+Les deux programmes sont fonctionnels.
