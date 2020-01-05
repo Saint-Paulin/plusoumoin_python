@@ -1,4 +1,4 @@
-#!/bin/python3.6
+#!/bin/python
 import tkinter as tk
 import random
 from tkinter import messagebox
@@ -27,10 +27,9 @@ def macmd():
     #print(nombre)
     nbrc += 1
     nbrcoup.config(text=nbrc)
-    inputuser.config(textvariable=var)
-    var = tk.StringVar()
     try:
         nombre = int(inputuser.get())
+        print(nombre)
         if nombre < alea:
             Monlabel.config(text="Perdu est plus petit que le chiffre mystère")
         elif nombre > alea:
@@ -41,6 +40,7 @@ def macmd():
             print(nombre)
     except:
         messagebox.askquestion("Warning", "Faudrait mettre un nombre abruti")
+    inputuser.config(textvariable=var)
 
 ### L'espace vert :
 
